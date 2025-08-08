@@ -1,0 +1,163 @@
+.main{
+    background-image: url(netflix-background-image.jpg);
+    height: 90vh; 
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    
+}
+
+
+
+.main > .box{
+    background-color: black;
+    height: 90vh;  
+    width: 100%;
+    opacity: 0.68;
+    position: absolute;
+    top: 0;
+}
+
+
+*{  
+    margin: 0;
+    padding: 0;   
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 82vw;   
+    position: relative;
+    z-index: 10;
+}
+#maaz{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid white;
+    font-weight: 600;
+    line-height: 1.25;
+    
+    
+}
+
+#rups{
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+}
+
+.content{
+    margin-top: 40px;
+   
+    position: relative;
+    color: white;
+    z-index: 10;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    white-space: nowrap;
+    text-overflow: clip;
+    width: 768px;
+    gap: 10px;
+    
+}
+
+.content > h1{
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: center;
+     margin-left: 181.200;
+    margin-right: 181.200;
+    font-size: 50px;
+    font-weight: 700;
+    
+
+}
+
+.div{
+    padding: 32px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 181.200;
+    margin-right: 181.200;
+    height: 8000px;
+    
+
+}
+
+.content > .para{
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.content > .divya{
+    margin-top: 20px;
+}
+
+
+.content > .email > button  input{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 7%;
+    border: 2px solid white;
+    z-index: 10;
+    
+    
+}
+
+.content > .email > button{
+    background-color: transparent;
+    text-decoration: white;
+    z-index: 10;
+    border-radius: 7%;
+    border: 1px solid white;
+}
+
+#get{
+    background-color: red;
+    color: white;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    font-size: 15px;
+    
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.sam{
+    height: 40vh;
+    background-color: black;
+}
+
+
